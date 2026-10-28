@@ -6,7 +6,7 @@ pkgs.stdenv.mkDerivation rec {
 
   src = pkgs.fetchurl {
     url = "https://github.com/Happ-proxy/happ-desktop/releases/download/${version}/Happ.linux.x64.deb";
-    sha256 = "sha256-LPP+BvEyU3JjyWiBo5HM5IMQruwHSLZ0GkNXsKYtzbg=";
+    sha256 = "sha256-NiU4+r2Xtrd3mKdPPmOjCmk6MwC8wFor7KfWeZSO29U=";
   };
 
   nativeBuildInputs = with pkgs; [
